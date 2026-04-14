@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: my-python-app
-        imagePullPolicy: Never
+        image: cmtrieu/ci-cd-kubernetes-pipeline:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
