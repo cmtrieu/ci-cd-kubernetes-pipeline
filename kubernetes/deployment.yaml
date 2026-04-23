@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: cmtrieu/ci-cd-kubernetes-pipeline:latest
+        image: cmtrieu/flask-demo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
