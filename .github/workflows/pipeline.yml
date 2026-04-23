@@ -32,7 +32,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build Docker image
-      run: docker build -t cmtrieu/ci-cd-kubernetes-pipeline:latest .
+      run: docker build -t cmtrieu/flask-demo:latest .
 
     - name: Push Docker image
-      run: docker push cmtrieu/ci-cd-kubernetes-pipeline:latest
+      run: docker push cmtrieu/flask-demo:latest
