@@ -8,6 +8,9 @@
 ### Fixed
 - Corrected image reference in Kubernetes deployment
 
+### Added
+- Helm chart for flask-demo
+
 ---
 
 ## [1.0.0] - 2026-04-15

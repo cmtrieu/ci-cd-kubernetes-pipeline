@@ -1,10 +1,10 @@
 # Flask Demo CI/CD Pipeline
 
 This project demonstrates a complete CI/CD pipeline for a containerized Flask application using:
-• Git-based workflows
-• Automated builds with GitHub Actions
-• Docker image publishing to Docker Hub
-• Kubernetes deployment using Helm
+- Git-based workflows
+- Automated builds with GitHub Actions
+- Docker image publishing to Docker Hub
+- Kubernetes deployment using Helm
 
 
 ## Architecture
